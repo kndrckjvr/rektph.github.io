@@ -1,0 +1,15 @@
+.my-id-pic {
+    width: 250px;
+    height: 250px;
+    background: url('../images/profile_pic.jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 250px;
+    border: 2px solid #000;
+    float: left;
+}
+
+.page {
+    width: 100vw;
+    height: 100%;
+}
