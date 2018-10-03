@@ -1,6 +1,10 @@
-.my-id-pic {
-    width: 250px;
-    height: 250px;
+* {
+    font-family: 'K2D', sans-serif;
+}
+
+img.id-circle {
+    width: 180px;
+    height: 180px;
     background: url('../images/profile_pic.jpg');
     background-position: center;
     background-size: cover;
@@ -9,7 +13,20 @@
     float: left;
 }
 
-.page {
-    width: 100vw;
-    height: 100%;
+header {
+    height: 180px;
+}
+
+.details {
+    position: relative;
+    transform: translate(0px, -50%);
+    top: 45%;
+}
+
+.details h1{
+    padding-left: 200px;
+}
+
+.details h4{
+    padding-left: 200px;
 }
