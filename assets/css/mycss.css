@@ -2,6 +2,16 @@
     font-family: 'K2D', sans-serif;
 }
 
+.profile-avatar {
+    background-image: url('../images/profile_pic.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 80px; 
+    height: 80px;
+    border-radius: 50%;
+    border: 1px solid #000;
+}
+
 img.id-circle {
     width: 180px;
     height: 180px;
